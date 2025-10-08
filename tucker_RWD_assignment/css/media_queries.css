@@ -1,0 +1,84 @@
+
+@media screen and (max-width: 1024px) {
+    .headline-large{
+        font-size: 1.25em;
+}
+
+    .subheader-regular{
+        font-size: 1.25em;
+}
+
+    .body-regular{
+        font-size: 0.75em;
+}
+
+    .logo{
+        height: 150px;
+        width: 150px;
+}
+
+    .social-dot{
+        width: 40px;
+        height: 40px;
+}
+
+    .nav-menu{
+        margin: auto 20%;
+        margin-top: 15%;
+        width: 100%;
+}
+
+    .bullfinch7{
+        background-position: 75%;
+}
+
+    .bullfinch4{
+        background-position: left;
+}
+}
+
+@media screen and (max-width: 900px) {
+    .hero{
+        height: auto;
+}
+
+    .bullfinch9{
+        height: auto;
+        background-position: 75%;
+}
+
+    .social-dot{
+        width: 35px;
+        height: 35px;
+}
+
+    .nav-menu{
+        margin-top: 19%;
+}
+}
+
+@media screen and (max-width: 600px) {
+    .col-half{
+        width: 100%;
+        overflow: hidden;
+        float: center;
+}
+
+    .height-400{
+        height: auto;
+}
+
+    .social-dot{
+        width: 25px;
+        height: 25px;
+}
+
+    .nav-menu{
+        margin-top: 25%;
+}
+
+    .logo{
+        height: 125px;
+        width: 125px;
+}
+}
