@@ -1,4 +1,4 @@
-# CDES2025.github.io
+# CDES:3602 Interactive Design 1.github.io
 CDES 3602 Projects
 RWD Exercises:
 
