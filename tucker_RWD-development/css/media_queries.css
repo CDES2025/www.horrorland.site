@@ -1,0 +1,210 @@
+@media screen and (max-width: 1024px) {
+
+.logo-color{
+    width: 113px;
+    height: 80px;
+    margin: 10px 0px 0px 4.16666666667%; /*60px*/
+}
+
+.nav-menu{
+    margin-right: 25.87890625%; /*265px*/
+}
+
+.nav-menu-item{
+    font-size: 16px;
+    margin: 45px 20px;
+}
+
+.col-half{
+    height: 500px;
+}
+
+.header-xl{
+    font-size: 58px;
+}
+
+.header-xl-style{
+    padding-top: 100px;
+}
+
+.col-half-video-style{
+    padding-top: 40px;
+    padding-left: 40px;
+    width: 44%;
+}
+
+.header-large{
+    font-size: 28px;
+    margin-bottom: 24px;
+}
+
+.body-regular{
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.button-regular{
+    font-size: 18px;
+    line-height: 1;
+    padding: 12px 14px;
+    margin-top: 47px;
+}
+
+.footer{
+    padding-bottom: 24px;
+}
+
+.nav-menu-item-footer{
+    font-size: 16px;
+    margin: 34px 10px;
+}
+
+.logo-mono{
+    width: 141px;
+    height: 100px;
+    margin-top: 24px;
+}
+
+}
+
+@media screen and (max-width: 900px) {
+
+.nav-menu{
+    float: right;
+    width: 48px;
+    height: 48px;
+    background-image: url(../img/Menu.svg);
+    background-size: cover;
+    margin: 25px 25px;
+    }
+
+.nav-menu-item{
+    text-align: center;
+    font-size: 0px;
+    margin: 0 auto;
+}
+
+.col-half{
+    width: 100%;
+    height: 250px;
+}
+
+.cube-cream_hero{
+    background-image: url(../img/cube-cream-hero.jpg);
+    background-size: cover;
+    background-position: center 15%;
+}
+
+.header-xl{
+    text-align: center;
+    font-size: 42px;
+    line-height: 1.25;
+}
+
+.header-xl br{
+    display: none;
+}
+
+.header-xl-style{
+  padding: 40px 200px;
+}
+
+.header-large{
+    font-size: 30px;
+    margin-bottom: 24px;
+}
+
+.body-regular{
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.button-regular{
+    font-size: 18px;
+    padding: 12px 14px;
+    margin-top: 37px;
+}
+
+.promotion-image-set{
+    width: 250px;
+    height: 250px;
+}
+
+.cube-cream1{
+    background-image: url(../img/cube-cream1.jpg);
+    background-size: cover;
+    background-position: center 45%;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+
+.col-half{
+    width: 100%;
+    height: 200px;
+}
+
+.logo-color{
+    float: left;
+    width: 101px;
+    height: 72px;
+}
+
+.cube-cream_hero{
+    background-size: cover;
+    background-position: center 5%;
+}
+
+.header-xl{
+    text-align: center;
+    font-size: 32px;
+    line-height: 1.25;
+}
+
+.header-xl-style{
+  padding: 50px 40px;
+}
+
+.header-large{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+.body-regular{
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.col-half-video-style{
+    float: center;
+    padding: 40px 10px 0px 10px;
+    width: auto;
+}
+
+.button-regular{
+    font-size: 16px;
+    padding: 10px 12px;
+    margin: 27px 200px 0px 200px;
+}
+
+.promotion-p-style{
+    padding: 0px 15px; /*130px*/
+}
+
+.nav-menu-footer{
+    display: table;
+    margin: 0 auto;
+}
+
+.nav-menu-item-footer{
+    float: center;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 20px;
+    margin: 15px 15px;
+}
+
+}

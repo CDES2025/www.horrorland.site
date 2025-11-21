@@ -1,0 +1,294 @@
+/*-----------Global-----------*/
+body{
+    width: 100%; /*1440px*/
+    height: auto;
+    background-color: #fffdf8;
+}
+
+.left{
+    float: left;
+}
+
+img, video{
+    max-width: 100%;
+}
+
+.left{
+    float: left;
+}
+/*-----------Sections----------*/
+
+.navigation{
+    width: 100%; /*1440px*/
+    overflow: hidden;
+    height: auto;
+}
+
+.hero{
+    float: left;
+    width: 100%; /*1440px*/
+    height: auto;
+    overflow: hidden;
+}
+
+.video-row{
+    float: left;
+    width: 100%; /*1440px*/
+    height: auto;
+}
+
+.row{
+    float: left;
+    width: 100%; /*1440px*/
+    height: auto;
+    overflow: hidden;
+}
+
+.col-half{
+    width: 50%; /*720px*/
+    height: 700px; 
+    float: left;
+    overflow: hidden;
+}
+
+.col-half-promotion{
+    width: 50%; /*720px*/
+    height: auto; 
+    float: left;
+    overflow: hidden;
+    padding-top: 100px;
+}
+
+.col-2-fourth{
+    float: left;
+    width: 50%; /*720px*/
+    height: 400px;
+}
+
+.col-1-fourth{
+    float: left;
+    width: 25%; /*360px*/
+    height: 100px;
+}
+
+.promotion-image-set{
+    width: 400px;
+    height: 400px;
+    float: center;
+    margin: 0 auto;
+}
+
+.footer{
+    float: left;
+    width: 100%; /*1440px*/
+    height: auto;
+    padding-bottom: 34px;
+}
+
+/*-------------section content/special edits-----------*/
+
+.header-xl-style{
+   padding-right: 10%; /*72px*/
+   padding-left: 4.16666666667%; /*30px*/
+   padding-top: 200px;
+}
+
+.col-half-video-style{
+    padding-top: 80px;
+    padding-left: 80px;
+    width: 42%; /*604.8px*/
+}
+
+.promotion-h2-style{
+    text-align: center;
+}
+
+.promotion-p-style{
+    text-align: center;
+    padding: 0px 18.0555555556%; /*130px*/
+}
+
+.cube-cream1-padding-bottom{
+    padding-bottom: 100px;
+}
+
+/*-------------Color-----------*/
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-magenta-light{
+    background-color: #E20E74;
+}
+
+.bg-grey{
+    background-color: #2F2F2F;
+}
+
+/*---typeface-color---*/
+
+.white{
+    color: #FFFFFF;
+}
+
+.magenta{
+    color: #C00E64;
+}
+
+
+/*------Typeface----*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap'); /*inter*/
+
+@import url("https://use.typekit.net/lws1pvj.css"); /*Gambado*/
+
+.nav-menu{
+    float: right;
+    margin-right: 31.25%; /*450px*/
+}
+
+.nav-menu-item{
+    float: left;
+    text-align: center;
+    font-family: "gambado-sans-forte",'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    line-height: auto;
+    list-style: none;
+    margin: 50px 20px;
+}
+
+.nav-menu-footer{
+    display: table;
+    margin: 0 auto;
+}
+
+.nav-menu-item-footer{
+    float: left;
+    font-family: 'Inter','Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: auto;
+    margin: 34px 10px;
+    list-style: none;
+}
+
+.nav-menu-item a {
+    text-decoration: none;
+    color: #C00E64;
+}
+
+.nav-menu-item-footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-xl{
+    font-family: 'gambado-sans','Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 72px;
+    line-height: 1.25;
+}
+
+.header-large{
+    font-family: 'Inter','Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.10;
+    margin-bottom: 24px;
+}
+
+.body-regular{
+    font-family: 'Inter','Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 35px;
+}
+
+/*---------images/video-----------*/
+
+.confetti-bg{
+    background-image: url(../img/confetti_bg.svg);
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+
+.logo-color{
+    float: left;
+    width: 141px;
+    height: 100px;
+    background-image: url(../img/logo_color.svg);
+    background-size: cover;
+    margin: 10px 0px 10px 4.16666666667%; /*60px*/
+}
+
+.cube-cream_hero{
+    background-image: url(../img/cube-cream-hero.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.extruder{
+    background-image: url(../img/extruder.jpg);
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 24px;
+}
+
+.kiosk{
+    background-image: url(../img/kiosk.jpg);
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 24px;
+}
+
+.cube-cream1{
+    background-image: url(../img/cube-cream1.jpg);
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 24px;
+}
+
+.logo-mono{
+    float: center;
+    width: 141px;
+    height: 100px;
+    background-image: url(../img/logo_mono.svg);
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
+/*-----video style-----*/
+
+#video{
+    min-height: auto;
+    min-width: 100%;
+    height: auto;
+    width: auto;
+    background-size: cover;
+    z-index: -1;
+}
+
+.content-overlay{
+    position: absolute;
+    z-index: 1;
+}
+/*----------buttons----------*/
+
+.button-regular{
+    font-family: 'gambado-sans-forte','Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    line-height: 1;
+    color: white;
+    background-color: #E20E74;
+    border: 0px;
+    border-radius: 100px;
+    padding: 14px 18px;
+    margin-top: 47px;
+}
+
+.button-regular:hover{
+    background-color: #FFFFFF;
+    color: #E20E74;
+}
